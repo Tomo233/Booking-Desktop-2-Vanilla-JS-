@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="desktop-2.css" />
+    <title>Druga Stranica</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="flex">
+          <div class="left-side-header">
+            <img src="imgs/logo.png" alt="" />
+            <p id="booking-title">Booking</p>
+          </div>
+          <div class="mid-side-header">
+            <nav id="header-nav">
+              <ul>
+                <li><a href="">Pocetna</a></li>
+                <li><a href="">O nama</a></li>
+                <li><a href="">Kontakt</a></li>
+                <li><a href="">Lokacija</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="right-side-header">
+            <img id="header-img" src="imgs/right-header-img.png" alt="" />
+            <button id="header-arrow">
+              <img src="imgs/right-header-arrow.png" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="line"></div>
+    </header>
+
+    <main>
+      <section class="main-section">
+        <div class="main-section-flex">
+          <!-- Start Left Main Section -->
+          <aside id="left-main-section">
+            <div id="first-aside-part">
+              <p class="your-search">Tvoja pretraga</p>
+              <form action="#">
+                <!-- flex start -->
+                <div class="flex">
+                  <img class="search-img" src="imgs/location.png" alt="" />
+                  <input
+                    class="search-input"
+                    type="search"
+                    placeholder="Budva, Crna Gora"
+                  />
+                </div>
+                <!-- flex end -->
+
+                <!-- flex start -->
+                <div class="flex">
+                  <img class="search-img" src="imgs/apartment.png" alt="" />
+                  <input
+                    type="search"
+                    name=""
+                    class="search-input"
+                    placeholder="Apartman"
+                  />
+                </div>
+                <!-- flex end -->
+
+                <!-- flex start -->
+                <div class="flex">
+                  <img class="search-img" src="imgs/star.png" alt="" />
+                  <input
+                    type="search"
+                    name=""
+                    class="search-input"
+                    placeholder="5 zvezdica"
+                  />
+                </div>
+                <!-- flex end -->
+
+                <button class="search-btn">
+                  <img class="search-icon" src="imgs/search-icon.png" alt="" />
+                  Pretrazi destinaciju
+                </button>
+              </form>
+            </div>
+            <div id="second-aside-part">
+              <p class="filter-p">Filteri</p>
+              <form action="#">
+                <input type="checkbox" name="" class="check-input" />
+                <p class="form-p">Sa bazenom</p>
+
+                <input type="checkbox" name="" class="check-input" />
+                <p class="form-p">Spa centar</p>
+
+                <input type="checkbox" name="" class="check-input" />
+                <p class="form-p">Terasa</p>
+
+                <input type="checkbox" name="" class="check-input" />
+                <p class="form-p">Terasa</p>
+
+                <input type="checkbox" name="" class="check-input" />
+                <p class="form-p">Klima</p>
+              </form>
+
+              <p class="filter-p">Odredi cene</p>
+              <form action="#">
+                <input type="checkbox" name="" class="check-input" />
+                <p class="form-p">Do 150$</p>
+
+                <input type="checkbox" name="" class="check-input" />
+                <p class="form-p">Od 150$ do 300$</p>
+
+                <input type="checkbox" name="" class="check-input" />
+                <p class="form-p">Od 300$ do 800$</p>
+
+                <input type="checkbox" name="" class="check-input" />
+                <p class="form-p">Od 800$ i vise</p>
+              </form>
+            </div>
+          </aside>
+          <!-- End Left Main Section -->
+
+          <!-- Start Right Main Section -->
+
+          <section id="right-main-section">
+            <p class="result" id="result-p">140 rezultata na vasu pretragu</p>
+            <div id="right-side-sort">
+              <p class="result" id="sort-p">Soritiraj po</p>
+              <button id="sort-btn">
+                <img src="imgs/right-header-arrow.png" alt="" />
+              </button>
+            </div>
+
+            <h1 id="city">Budva, Crna Gora, Apartman</h1>
+
+            <!-- grid start -->
+            <div class="grid">
+              <!-- START BOX 1 -->
+              <div class="box" id="box-1">
+                <div class="flex-around">
+                  <img
+                    class="apartment-img"
+                    src="imgs/vila-marko-cvetinovic.png"
+                    alt=""
+                  />
+                  <div class="middle-box-content">
+                    <p class="first-box-text">Vila Marko Cvetinovic</p>
+                    <p class="second-box-text">Budva, Crna Gora</p>
+                    <div class="star-flex">
+                      <p class="rate">Ocena:</p>
+                      <div class="star">
+                        <img src="imgs/yellow-star.png" alt="" />
+                        <img src="imgs/yellow-star.png" alt="" />
+                        <img src="imgs/yellow-star.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="rooms">
+                      <p class="room">10 soba</p>
+                      <p class="room">3 apartmana</p>
+                      <p class="room">1 duplex</p>
+                    </div>
+                  </div>
+                  <div class="right-box-content">
+                    <p class="viewers-p">1319 pregleda</p>
+                    <button class="view-more-btn">Pogledaj vise</button>
+                  </div>
+                </div>
+              </div>
+              <!-- END BOX 1 -->
+
+              <!-- START BOX 2 -->
+              <div class="box" id="box-2">
+                <div class="flex-around">
+                  <img
+                    class="apartment-img"
+                    src="imgs/hotel-filip-djurkovic.png"
+                    alt=""
+                  />
+                  <div class="middle-box-content">
+                    <p class="first-box-text">Hotel Filip Djurkovic</p>
+                    <p class="second-box-text">Split, Hrvatska</p>
+                    <div class="star-flex">
+                      <p class="rate">Ocena:</p>
+                      <div class="star">
+                        <img src="imgs/yellow-star.png" alt="" />
+                        <img src="imgs/yellow-star.png" alt="" />
+                        <img src="imgs/yellow-star.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="rooms">
+                      <p class="room">30 soba</p>
+                      <p class="room">10 apartmana</p>
+                      <p class="room">5 duplex</p>
+                    </div>
+                  </div>
+                  <div class="right-box-content">
+                    <p class="viewers-p">14229 pregleda</p>
+                    <button class="view-more-btn">Pogledaj vise</button>
+                  </div>
+                </div>
+              </div>
+              <!-- END BOX 2 -->
+
+              <!-- START BOX 3 -->
+              <div class="box" id="box-1">
+                <div class="flex-around">
+                  <img
+                    class="apartment-img"
+                    src="imgs/hotel-tomo-bratic.png"
+                    alt=""
+                  />
+                  <div class="middle-box-content">
+                    <p class="first-box-text">Hotel Tomo Bratic</p>
+                    <p class="second-box-text">Split, Hrvatska</p>
+                    <div class="star-flex">
+                      <p class="rate">Ocena:</p>
+                      <div class="star">
+                        <img src="imgs/yellow-star.png" alt="" />
+                        <img src="imgs/yellow-star.png" alt="" />
+                        <img src="imgs/yellow-star.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="rooms">
+                      <p class="room">5 soba</p>
+                      <p class="room">2 apartmana</p>
+                      <p class="room">0 duplex</p>
+                    </div>
+                  </div>
+                  <div class="right-box-content">
+                    <p class="viewers-p">479 pregleda</p>
+                    <button class="view-more-btn">Pogledaj vise</button>
+                  </div>
+                </div>
+              </div>
+              <!-- END BOX 3 -->
+            </div>
+            <!-- grid end -->
+          </section>
+          <!-- End Right Main Section -->
+        </div>
+      </section>
+      <!-- End Right Main Section -->
+      <div class="overlay hidden"></div>
+
+      <div id="login-section" class="hidden">
+        <p id="login-p">Prijavi se</p>
+        <form action="#" id="login-form">
+          <label class="login-label" for="email">Email:</label>
+          <input
+            class="login-input"
+            id="email-input"
+            name="email"
+            type="text"
+            placeholder="Unesi Email..."
+          />
+          <p class="error-p" id="error-p-1"></p>
+          <label class="login-label" for="lozinka">Lozinka:</label>
+          <input
+            class="login-input"
+            id="password-input"
+            type="password"
+            name="password"
+            placeholder="Unesi lozinku "
+          />
+          <p class="error-p" id="error-p-2"></p>
+
+          <button id="login-google-btn" class="login-btn">
+            <img id="google-logo-img" src="imgs/google-logo.png" alt="" />
+            <span id="google-spn"> Sign in with Google</span>
+          </button>
+          <button id="login-search-btn" class="login-btn">
+            Pretrazi destinaciju
+          </button>
+        </form>
+      </div>
+    </main>
+    <script src="desktop-2.js"></script>
+  </body>
+</html>

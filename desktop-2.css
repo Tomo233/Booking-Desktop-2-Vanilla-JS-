@@ -1,0 +1,376 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+button {
+  outline: none;
+}
+h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 35px;
+}
+
+/* Start Header Css */
+
+header {
+  padding-top: 35px;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.left-side-header {
+  position: relative;
+  bottom: 16px;
+}
+#booking-title {
+  position: absolute;
+  top: 14px;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 20px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 35px;
+}
+nav ul li a {
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+.right-side-header {
+  position: relative;
+  bottom: 13px;
+}
+#header-img {
+  cursor: pointer;
+}
+#header-arrow {
+  background-color: transparent;
+  border: none;
+  position: relative;
+  bottom: 12px;
+  cursor: pointer;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #e7e9e8;
+}
+
+/* End Header Css */
+
+/* Start Main-Section Css */
+
+/* main flex */
+.main-section-flex {
+  display: flex;
+  justify-content: flex-start;
+}
+/* start left main section */
+#left-main-section {
+  border-right: 1px solid #e7e9e8;
+  margin-right: 35px;
+}
+#first-aside-part {
+  background-color: #f8f8f8;
+  padding-top: 5px;
+  width: 502px;
+  height: 402px;
+}
+.your-search {
+  margin: 35px 0px 35px 120px;
+  font-size: 20px;
+  font-weight: 600;
+}
+#first-aside-part form {
+  display: grid;
+  place-content: center;
+}
+.search-img {
+  height: 25px;
+  margin-top: 7px;
+}
+.search-input {
+  display: inline-block;
+  width: 230px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 25px;
+}
+
+.search-input::placeholder {
+  padding-left: 20px;
+  font-size: 16px;
+}
+.search-btn {
+  position: relative;
+  background-color: #3871c8;
+  color: white;
+  width: 265px;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.search-icon {
+  position: absolute;
+  left: 15px;
+  top: 7px;
+  bottom: 7px;
+}
+#second-aside-part {
+  background-color: white;
+}
+.filter-p {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 47px 0px 25px 120px;
+}
+#second-aside-part form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.check-input {
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.form-p {
+  display: inline-block;
+  position: relative;
+  right: 110px;
+}
+/* end left main section */
+
+/* start  right main section */
+
+.result {
+  padding: 35px 0px 20px 0px;
+  font-size: 20px;
+  font-weight: 500;
+}
+#result-p {
+  color: #6f6f6f;
+  display: inline-block;
+}
+#sort-p {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+}
+#right-side-sort {
+  display: inline-block;
+  padding-left: 400px;
+}
+#sort-select {
+  height: 30px;
+  width: 200px;
+}
+#sort-select:focus {
+  outline: none;
+}
+#sort-btn {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  position: relative;
+  top: 5px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+/* Box style */
+.box {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  max-height: 263px;
+  max-width: 910px;
+  padding: 15px 0px 50px 0px;
+  border-radius: 10px;
+  margin-bottom: 70px;
+}
+
+/* Box flex */
+.flex-around {
+  display: flex;
+  justify-content: space-around;
+}
+/* (START) Left Side of Box flex */
+.apartment-img {
+  margin-top: 30px;
+  height: 220px;
+  width: 180px;
+}
+/* (END) Left Side of Box flex */
+
+/*(START) Mid Side of Box flex */
+.middle-box-content {
+  position: relative;
+  top: 10px;
+  right: 50px;
+}
+.first-box-text {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 35px;
+}
+.second-box-text {
+  color: #6f6f6f;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  top: 50px;
+}
+.star-flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}
+.rooms {
+  margin-top: 70px;
+}
+.room {
+  margin-bottom: 10px;
+  color: #6f6f6f;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/*(END) Mid Side of Box flex */
+
+/* (START) Right Side of Box flex */
+.right-box-content {
+  position: relative;
+}
+.viewers-p {
+  color: #6f6f6f;
+  font-size: 14px;
+  margin-top: 35px;
+}
+.view-more-btn {
+  cursor: pointer;
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  background-color: #3871c8;
+  width: 160px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+}
+/* (END) Right Side of Box flex */
+
+/* End Main-Section Css */
+
+/* (START) Form Style */
+
+#login-section {
+  position: sticky;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -225%);
+  max-width: 500px;
+  /* max-height: 500px; */
+  background-color: #fff;
+}
+#login-p {
+  padding: 10% 0px;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+#login-form {
+  display: grid;
+  place-content: center;
+}
+.login-label {
+  font-weight: 500;
+  font-size: 16px;
+  color: #6f6f6f;
+}
+.login-input {
+  margin: 10px 0px;
+  width: 300px;
+  height: 50px;
+  padding-left: 15px;
+  font-size: 16px;
+  background-color: #f2f2f2;
+  color: #6f6f6f;
+  border: none;
+}
+.login-input:focus {
+  outline: none;
+}
+.login-btn {
+  width: 210px;
+  height: 45px;
+}
+
+#login-google-btn {
+  cursor: pointer;
+  background-color: #4f87ed;
+  border: none;
+  position: relative;
+  /* margin-top: 40px; */
+  margin: 0px auto;
+}
+#google-spn {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 36px;
+}
+#google-logo-img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 45px;
+}
+#login-search-btn {
+  cursor: pointer;
+  background-color: #3871c8;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border: 0;
+  /* margin-top: 50px; */
+  margin: 50px auto;
+}
+.hidden {
+  display: none;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as desired */
+}
+.error-p {
+  color: red;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  height: 25px;
+}
